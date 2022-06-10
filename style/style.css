@@ -1,0 +1,47 @@
+h1{
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bolder;
+}
+
+.sideText {
+    font-size: 2vmax;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+#title {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    background-color: gray;
+    border-bottom: 5px solid black;
+}
+
+a {
+    text-decoration: none;
+    color: black !important;
+    font-weight: bolder;
+    font-family: 'Courier New', Courier, monospace;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+a:hover {
+    text-decoration: underline !important;
+}
+
+#sideBar {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    border-right: 5px solid black;
+    background-color: grey;
+    width: 30%;
+    height: 100%;
+}
+
+.sideText {
+    font-size: 5vmin;
+    font-family: 'Courier New', Courier, monospace;
+}

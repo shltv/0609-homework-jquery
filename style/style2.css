@@ -1,0 +1,104 @@
+#container1 {
+    background-color: black;
+    width: 100%;
+    height: 100vh;
+    padding-top: 0%;
+}
+
+.row {
+    height: 100%;
+    background-color: mediumaquamarine;
+}
+
+#title {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    background-color: gray;
+    border-bottom: 5px solid black;
+}
+
+h1{
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bolder;
+}
+
+#sideBar {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    border-right: 5px solid black;
+    background-color: grey;
+    width: 30%;
+    height: 100%;
+
+    padding-top: 10%;
+    padding-bottom: 10%;
+}
+
+.sideText {
+    font-size: 5vmin;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+a {
+    text-decoration: none;
+    color: black !important;
+    font-weight: bolder;
+    font-family: 'Courier New', Courier, monospace;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+a:hover {
+    text-decoration: underline !important;
+}
+
+#rightSide {
+    display: flex;
+    justify-content: center;
+}
+
+#gameInputs {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 80%;
+    padding-top: 5%;
+}
+
+#form {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: baseline;
+    align-items: center;
+    border: 3px solid lightgray;
+    padding-right: 15%;
+    padding-left: 20%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+#inputs {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.input {
+    margin-bottom: 2%;
+}
+
+#readyText {
+    width: 70%;
+    height: 40%;
+    padding-left: 10%;
+    padding-right: 10%;
+    font-family: 'Courier New', Courier, monospace;
+    padding-top: 5%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
